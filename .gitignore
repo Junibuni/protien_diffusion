@@ -1,0 +1,75 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Machine Learning/DL common files
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pkl
+
+# TensorFlow SavedModel directory
+saved_model/
+*.pb
+
+# TensorBoard log files
+logs/
+*.tfevents.*
+
+# Dataset files
+*.csv
+*.tsv
+*.json
+*.xml
+*.zip
+*.tar.gz
+*.hdf5
+*.npy
+*.npz
+*.parquet
+
+# Temporary and cache files
+*.tmp
+*.log
+*.bak
+.DS_Store
+
+# Model and results directories
+models/
+outputs/
+results/
+data/
+checkpoints/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore large or unwanted files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# Ignore config files
+config.yaml
+config.json
+
+# Ignore environment files
+.env
